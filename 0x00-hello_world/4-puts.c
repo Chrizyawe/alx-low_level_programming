@@ -6,9 +6,7 @@
  */
 int main(void)
 {
-	char str[] = "Programming is like building a multilingual puzzle"/n;
+	puts ("\""Programming is like building a multilingual puzzle)
 
-	puts(str); /* writing the string to stdout */
-
-	Return 0;
+Return 0
 }
