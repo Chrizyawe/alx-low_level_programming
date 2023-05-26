@@ -1,20 +1,27 @@
 #include <stdio.h>
 
 /**
- * main - alphabet in lowercase and uppercase 
+ * main - alphabet in lowercase and uppercase
  *
  * Return: Always 0 (success)
  *
  */
 int main(void)
 {
-	char alp[52]="abcdefghijklmnopqrstuvwxyzABECDFGHIJKLMNOPQRSTUVWXYZ";
-		int b;
+	char lowercase = 'a';
+	char uppercase = 'A';
 
-		for (b = 0; b < 52; b++)
-		{
-			putchar(alp[52]);
-		}
-		putchar('\n');
-		return (0);
+	while (lowercase <= 'z')
+	{
+		putchar(lowercase);
+		lowercase++;
+	}
+	while (uppercase <= 'Z')
+	{
+		putchar(uppercase);
+		uppercase++;
+	}
+	putchar('\n');
+
+	return (0);
 }
