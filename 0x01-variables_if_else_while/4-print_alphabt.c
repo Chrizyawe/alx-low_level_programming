@@ -7,7 +7,7 @@
  *
  */
 
-int main()
+int main(void)
 {
 	char lowercase = 'a';
 
@@ -20,5 +20,5 @@ int main()
 		lowercase++;
 	}
 		putchar('\n');
-		return 0;
+		return (0);
 }
