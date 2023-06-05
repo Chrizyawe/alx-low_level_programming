@@ -25,11 +25,10 @@ int main(void)
 			(i % 5 == 0)
 			{
 				printf("buzz ");
-			}
-		else
-		{
+			}else
+			{
 			printf("%d ", i);
-		}
+			}
 	}
 	printf("\n");
 
