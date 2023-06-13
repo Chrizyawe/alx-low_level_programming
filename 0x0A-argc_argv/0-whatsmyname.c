@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
 	(void)argc;
 
-	printf("program name: %s\n", argv[0]);
+	printf("program name: %s\n", *argv[]);
+
 	return (0);
 }
